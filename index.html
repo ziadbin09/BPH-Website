@@ -40,9 +40,11 @@
     .brand-fallback{display:none;width:44px;height:44px;border-radius:50%;align-items:center;justify-content:center;background:var(--sage-dark);color:white;font-weight:700}
     .brand span small{display:block;color:var(--muted);font-size:10px;letter-spacing:.16em;text-transform:uppercase;line-height:1}
     .brand span strong{display:block;font-size:15px}
-    .navlinks{display:flex;gap:28px;font-size:14px;font-weight:600}
-    .navlinks a:hover{color:var(--sage-dark)}
-    .nav-cta{padding:10px 16px;border-radius:999px;background:var(--sage-dark);color:white}
+    .navlinks{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:600;line-height:1}
+    .navlinks a{display:inline-flex;align-items:center;justify-content:center;height:40px;padding:0 16px;border-radius:999px;transition:background .2s,color .2s}
+    .navlinks a:hover{color:var(--sage-dark);background:rgba(94,125,110,.08)}
+    .navlinks a.nav-cta{margin-left:8px;background:var(--sage-dark);color:#fff;padding:0 20px}
+    .navlinks a.nav-cta:hover{color:#fff;opacity:.9;background:var(--sage-dark)}
     .menu{display:none;background:none;border:0;font-size:24px}
     .hero{padding:100px 0 80px;position:relative;overflow:hidden}
     .hero:before{content:"";position:absolute;width:500px;height:500px;border-radius:50%;background:var(--sage-soft);right:-170px;top:-130px;opacity:.75}
